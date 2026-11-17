@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Shalx App — simple, useful tools for everyday life.">
+  <meta name="theme-color" content="#0b0f14">
+  <title>Shalx App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="Shalx App home">
+      <span class="brand-mark">S</span>
+      <span>SHALX APP</span>
+    </a>
+    <nav>
+      <a href="#apps">Apps</a>
+      <a href="#about">About</a>
+      <a href="#" id="githubLink">GitHub</a>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="eyebrow">INDEPENDENT SOFTWARE</div>
+      <h1>Simple tools.<br><span>Made useful.</span></h1>
+      <p>Small, focused apps for navigation, places and everyday work — without unnecessary complexity.</p>
+      <a class="primary" href="#apps">Explore apps</a>
+    </section>
+
+    <section class="apps-section" id="apps">
+      <div class="section-heading">
+        <div>
+          <div class="eyebrow">OUR PROJECTS</div>
+          <h2>Apps</h2>
+        </div>
+        <p>Use them online or choose the version made for your device.</p>
+      </div>
+
+      <div class="grid">
+        <article class="app-card featured">
+          <div class="app-top">
+            <div class="app-icon pin">●</div>
+            <div class="badges"><span>WEB</span><span>WINDOWS</span></div>
+          </div>
+          <h3>Fix-Pin</h3>
+          <p>Save locations, organize places and quickly return to them when you need them.</p>
+          <div class="features">
+            <span>Save places</span><span>Share locations</span><span>Local-first</span>
+          </div>
+          <div class="actions">
+            <a class="primary small" href="#" data-placeholder="Fix-Pin web address">Open Web</a>
+            <a class="secondary small" href="#" data-placeholder="Fix-Pin download">Download</a>
+          </div>
+        </article>
+
+        <article class="app-card">
+          <div class="app-top">
+            <div class="app-icon road">↟</div>
+            <div class="badges"><span>ANDROID</span></div>
+          </div>
+          <h3>BeenBack</h3>
+          <p>A driving helper with live traffic view and a simple way to save places you've visited.</p>
+          <div class="features">
+            <span>Live traffic</span><span>Visited places</span><span>Google Maps</span>
+          </div>
+          <div class="actions">
+            <a class="primary small" href="#" data-placeholder="BeenBack Android download">Android</a>
+            <span class="status">More platforms later</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="coming">
+      <div>
+        <div class="eyebrow">NEXT</div>
+        <h2>More coming soon.</h2>
+      </div>
+      <p>Navigation, car utilities and other useful ideas will join the Shalx App collection over time.</p>
+    </section>
+
+    <section class="about" id="about">
+      <div class="eyebrow">ABOUT</div>
+      <h2>Useful first.</h2>
+      <p>Shalx App is a growing collection of independent software projects built around one idea: make everyday tools straightforward and practical.</p>
+    </section>
+  </main>
+
+  <footer>
+    <span>© <span id="year"></span> Shalx App</span>
+    <span>Simple tools. Made useful.</span>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="app.js"></script>
+</body>
+</html>
